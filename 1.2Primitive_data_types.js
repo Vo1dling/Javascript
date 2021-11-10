@@ -46,7 +46,7 @@ console.log (string)
  */
 let bill = 120
 let tax = 10
-let total = "Your total bill is" + " " + bill * tax + "$"
+let total =`Your total bill is ${bill * tax}$`
 console.log (total)
 // Round the number 50.6 to its nearest integer
 let round = Math.round(50.6)
