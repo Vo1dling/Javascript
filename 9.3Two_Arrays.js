@@ -14,9 +14,6 @@ function comparison(arr,arr1){
       }
     }
   }
-  // if(results.length = 0){
-  //   return('false')
-  // }
- {return(results)}
+  return(results)
 }
 console.log(comparison(food,food1))
